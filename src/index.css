@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+/* Navbar */
+.shop-navbar {
+  background-color: blueviolet;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 15px 30px;
+  color: #fff;
+  min-height: 70px;
+}
+.shop-navbar h1 {
+  color: #fff;
+}
+.shop-basket-icon {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+.shop-basket-icon:hover {
+  color: rgb(20, 216, 46);
+}
+.shop-basket-icon span {
+  padding-left: 10px;
+}
+/* Home Page */
+.custom-card {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.custom-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
